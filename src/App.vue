@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld :msg="$t('welcomeMsg')" />
+    <div class="locale-changer">
+      <select v-model="$i18n.locale">
+        <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang.toUpperCase() }}</option>
+      </select>
+    </div>
   </div>
 </template>
 
@@ -12,6 +17,12 @@ export default {
   name: "app",
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      default: this.$t('defaultData'),
+      langs: ['tr', 'en']
+    }
   }
 };
 </script>

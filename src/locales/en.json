@@ -1,0 +1,22 @@
+{
+    "welcomeMsg": "Welcome to Your Vue.js App",
+    "guide": "For a guide and recipes on how to configure / customize this project,",
+    "checkOut": "check out the",
+    "vueCli": "vue-cli documentation",
+    "cliPlugins": "Installed CLI Plugins",
+    "babel": "Babel",
+    "eslint": "Eslint",
+    "essential": "Essential Links",
+    "coreDocs": "Core Docs",
+    "forum": "Forum",
+    "chat": "Community Chat",
+    "twitter": "Twitter",
+    "news": "News",
+    "ecosystem": "Ecosystem",
+    "vueRouter": "vue-router",
+    "vuex": "vuex",
+    "devTools": "vue-devtools",
+    "loader": "vue-loader",
+    "awesome": "awesome-vue",
+    "defaultData": "i18n for data"
+}
